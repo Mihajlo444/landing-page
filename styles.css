@@ -1,0 +1,124 @@
+* {
+  font-family: roboto;
+}
+.header,
+.intro {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 300px;
+  padding-right: 300px;
+  gap: 75px;
+}
+.header {
+  align-items: center;
+}
+ul {
+  padding-left: 0;
+  display: flex;
+  list-style: none;
+}
+.hlogo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.links,
+.lcontrast {
+  font-size: 18px;
+  color: #e5e7eb;
+  gap: 16px;
+}
+.awesome {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.intro {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.wintro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-content: space-evenly;
+}
+.intro button {
+  padding: 8px 32px;
+  background-color: #3882f6;
+  color: white;
+  border-style: none;
+  border-radius: 7px;
+}
+
+.rinfo {
+  font-weight: 900;
+  color: #1f2937;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.kartice {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  color: #1f2937;
+}
+.kartice img {
+  border: solid #3882f6 5px;
+  border-radius: 12px;
+}
+.card {
+  width: 170px;
+}
+.randominfo {
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+.quote {
+  background-color: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
+  color: #1f2937;
+  padding: 170px 200px;
+}
+.potpis {
+  text-align: end;
+  font-style: normal;
+  font-size: 24px;
+  font-weight: bold;
+}
+.signup {
+  padding: 100px 30px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+.signup2 {
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 110px;
+  border-radius: 12px;
+}
+.signup button {
+  background-color: #3882f6;
+  border-radius: 7px;
+  border: 2px solid white;
+  padding: 8px 32px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+.footer {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+body {
+  margin: 0;
+}
